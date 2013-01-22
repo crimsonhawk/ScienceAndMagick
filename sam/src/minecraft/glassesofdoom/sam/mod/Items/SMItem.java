@@ -1,7 +1,7 @@
 package glassesofdoom.sam.mod.Items;
 
+import net.minecraft.item.Item;
 import glassesofdoom.sam.mod.lib.ItemIds;
-import cpw.mods.fml.common.Mod.Item;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class SMItem {
@@ -72,7 +72,7 @@ public class SMItem {
 
 	public static void init() {
 		/* Note to get started on items */
-/*		ManaCrystle = new ItemManaCrystle(ItemIds.MAMACRYSTLE);
+		ManaCrystle = new ItemManaCrystle(ItemIds.MAMACRYSTLE);
 		ManaIngot = new ItemManaIngot(ItemIds.MANAINGOT);
 		RuneIngot = new ItemRuneIngot(ItemIds.RUNEINGOT);
 		AdamatiumIngot = new ItemAdamatiumIngot(ItemIds.ADAMANTIUMINGOT);
@@ -133,7 +133,7 @@ public class SMItem {
 		SteelBlade = new ItemSteelBlade(ItemIds.STEELBLADE);
 		StarSteelBlade = new ItemStarSteelBlade(ItemIds.STARSTEELBLADE);
 	
-	*/	
+		
 	}
 
 }

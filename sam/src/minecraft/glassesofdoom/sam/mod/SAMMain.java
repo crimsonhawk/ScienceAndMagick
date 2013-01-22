@@ -80,7 +80,7 @@ public class SAMMain {
 	public void init(FMLInitializationEvent event) {
 		
 		SMBlock.init();
-		SMItem.init();
+		//SMItem.init();
 		
 	}
 
