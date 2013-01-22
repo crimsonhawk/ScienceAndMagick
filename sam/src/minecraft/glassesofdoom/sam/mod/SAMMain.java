@@ -6,6 +6,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.Configuration;
 import glassesofdoom.sam.mod.Blocks.SMBlock;
 import glassesofdoom.sam.mod.CreativeTabs.CreativeTabsSAM;
+import glassesofdoom.sam.mod.CreativeTabs.CreativeTabsSAMItems;
+import glassesofdoom.sam.mod.Items.SMItem;
 import glassesofdoom.sam.mod.core.proxys.CommonProxy;
 import glassesofdoom.sam.mod.lib.BlockIds;
 import glassesofdoom.sam.mod.lib.Reference;
@@ -31,7 +33,8 @@ public class SAMMain {
 	@SidedProxy(clientSide = Reference.ClientProxy  , serverSide = Reference.CommonProxy)
 	public static CommonProxy proxy;
 	
-	public static CreativeTabs TabsSam = new CreativeTabsSAM(Reference.MOD_ID);
+	public static CreativeTabs TabsSam = new CreativeTabsSAM("S&M Blocks");
+	public static CreativeTabs TabsSamItems = new CreativeTabsSAMItems("S&M Items");
 	
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event) {
@@ -77,6 +80,7 @@ public class SAMMain {
 	public void init(FMLInitializationEvent event) {
 		
 		SMBlock.init();
+		SMItem.init();
 		
 	}
 

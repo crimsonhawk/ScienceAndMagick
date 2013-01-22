@@ -1,0 +1,133 @@
+package glassesofdoom.sam.mod.lib;
+
+public class ItemIds {
+	
+	
+	/* Default Item ids*/
+	public static int MAMACRYSTLE_DEFAULT = 4500;
+	public static int MANAINGOT_DEFAULT = 4501;
+	public static int RUNEINGOT_DEFAULT = 4502;
+	public static int ADAMANTIUMINGOT_DEFAULT = 4503;
+	public static int AETHERIUMINGOT_DEFAULT = 4504;
+	public static int ORICHALCUMINGOT_DEFAULT = 4505;
+	public static int WONDERFLONIUMINGOT_DEFAULT = 4506;
+	public static int MITHRILINGOT_DEFAULT = 4507;
+	public static int SILICONINGOT_DEFAULT = 4508;
+	public static int TININGOT_DEFAULT = 4509;
+	public static int COPPERINGOT_DEFAULT = 4510;
+	public static int BRONZEINGOT_DEFAULT = 4511;
+	public static int TITANIUMINGOT_DEFAULT = 4512;
+	public static int SILVERINGOT_DEFAULT = 4513;
+	public static int STEELINGOT_DEFAULT = 4514;
+	public static int STARSTEELINGOT_DEFAULT = 4515;
+	public static int INGOTMOLD_DEFAULT = 4516;
+	public static int PICKAXEMOLD_DEFAULT = 4517;
+	public static int SHOVELMOLD_DEFAULT = 4518;
+	public static int AXEMOLD_DEFAULT = 4519;
+	public static int BLADEMOLD_DEFAULT = 4520;
+	public static int SHAFT_DEFAULT = 4521;
+	public static int HILT_DEFAULT = 4522;
+	public static int MANAPICKAXEHEAD_DEFAULT = 4523;
+	public static int RUNEPICKAXEHEAD_DEFAULT = 4524;
+	public static int ADAMANTIUMPICKAXEHEAD_DEFAULT =4525;
+	public static int MITHRILPICKAXEHEAD_DEFAULT = 4526;
+	public static int COPPERPICKAXEHEAD_DEFAULT = 4527;
+	public static int BRONZEPICKAXEHEAD_DEFAULT = 4528;
+	public static int SILVERPICKAXEHEAD_DEFAULT = 4529;
+	public static int STEELPICKAXEHEAD_DEFAULT = 4530;
+	public static int STARSTEELPICKAXEHEAD_DEFAULT = 4531;
+	public static int MANASHOVELHEAD_DEFAULT = 4532;
+	public static int RUNESHOVELHEAD_DEFAULT = 4533;
+	public static int ADAMANTIUMSHOVELHEAD_DEFAULT = 4534;
+	public static int MITHRILSHOVELHEAD_DEFAULT = 4535;
+	public static int COPPERSHOVELHEAD_DEFAULT = 4536;
+	public static int BRONZESHOVELHEAD_DEFAULT = 4537;
+	public static int SILVERSHOVELHEAD_DEFAULT = 4538;
+	public static int STEELSHOVELHEAD_DEFAULT = 4539;
+	public static int STARSTEELSHOVELHEAD_DEFAULT = 4540;
+	public static int MANAAXEHEAD_DEFAULT = 4541;
+	public static int RUNEAXEHEAD_DEFAULT = 4542;
+	public static int ADAMANTIUMAXEHEAD_DEFAULT = 4543;
+	public static int MITHRILAXEHEAD_DEFAULT = 4544;
+	public static int COPPERAXEHEAD_DEFAULT = 4545;
+	public static int BRONZEAXEHEAD_DEFAULT = 4546;
+	public static int SILVERAXEHEAD_DEFAULT = 4547;
+	public static int STEELAXEHEAD_DEFAULT = 4548;
+	public static int STARSTEELAXEHEAD_DEFAULT = 4549;
+	public static int MANABLADE_DEFAULT = 4550;
+	public static int RUNEBLADE_DEFAULT = 4551;
+	public static int ADAMANTIUMBLADE_DEFAULT = 4552;
+	public static int MITHRILBLADE_DEFAULT = 4553;
+	public static int COPPERBLADE_DEFAULT = 4554;
+	public static int BRONZEBLADE_DEFAULT = 4555;
+	public static int TITANIUMBLADE_DEFAULT = 4556;
+	public static int SILVERBLADE_DEFAULT = 4557;
+	public static int STEELBLADE_DEFAULT = 4558;
+	public static int STARSTEELBLADE_DEFAULT = 4559;
+			
+	/*Current Item ids */
+	
+	public static int MAMACRYSTLE;
+	public static int MANAINGOT;
+	public static int RUNEINGOT;
+	public static int ADAMANTIUMINGOT;
+	public static int AETHERIUMINGOT;
+	public static int ORICHALCUMINGOT;
+	public static int WONDERFLONIUMINGOT;
+	public static int MITHRILINGOT;
+	public static int SILICONINGOT;
+	public static int TININGOT;
+	public static int COPPERINGOT;
+	public static int BRONZEINGOT;
+	public static int TITANIUMINGOT;
+	public static int SILVERINGOT;
+	public static int STEELINGOT;
+	public static int STARSTEELINGOT;
+	public static int INGOTMOLD;
+	public static int PICKAXEMOLD;
+	public static int SHOVELMOLD;
+	public static int AXEMOLD;
+	public static int BLADEMOLD;
+	public static int SHAFT;
+	public static int HILT;
+	public static int MANAPICKAXEHEAD;
+	public static int RUNEPICKAXEHEAD;
+	public static int ADAMANRIUMPICKAXEHEAD;
+	public static int MITHRILPICKAXEHEAD;
+	public static int COPPERPICKAXEHEAD;
+	public static int BRONZEPICKAXEHEAD;
+	public static int SILVERPICKAXEHEAD;
+	public static int STEELPICKAXEHEAD;
+	public static int STARSTEELPICKAXEHEAD;
+	public static int MANASHOVELHEAD;
+	public static int RUNESHOVELHEAD;
+	public static int ADAMANTIUMSHOVELHEAD;
+	public static int MITHRILSHOVELHEAD;
+	public static int COPPERSHOVELHEAD;
+	public static int BRONZESHOVELHEAD;
+	public static int SILVERSHOVELHEAD;
+	public static int STEELSHOVELHEAD;
+	public static int STARSTEELSHOVELHEAD;
+	public static int MANAAXEHEAD;
+	public static int RUNEAXEHEAD;
+	public static int ADAMANTIUMAXEHEAD;
+	public static int MITHRILAXEHEAD;
+	public static int COPPERAXEHEAD;
+	public static int BRONZEAXEHEAD;
+	public static int SILVERAXEHEAD;
+	public static int STEELAXEHEAD;
+	public static int STARSTEELAXEHEAD;
+	public static int MANABLADE;
+	public static int RUNEBLADE;
+	public static int ADAMANTIUMBLADE;
+	public static int MITHRILBLADE;
+	public static int COPPERBLADE;
+	public static int BRONZEBLADE;
+	public static int TITANIUMBLADE;
+	public static int SILVERBLADE;
+	public static int STEELBLADE;
+	public static int STARSTEELBLADE;
+	
+	
+
+}

@@ -3,26 +3,26 @@ package glassesofdoom.sam.mod.lib;
 public class Strings {
 	
 	/* Items */
-	public final static String Item_Magick_Wand_Of_Magick_Name = "Magick Wand Of Magick";
-	public final static String Item_Magick_Staff_Of_Magick_Name = "Magick Staff Of Magick";
 	public final static String Item_Mana_Crystle_Name = "Mana Crysle";
 	public final static String Item_Mana_Ingot_Name = "Mana Ingot";
 	public final static String Item_Rune_Ingot_Name = "Rune Ingot";
 	public final static String Item_Adamatium_Ingot_Name = "Adamatium Ingot";
-	public final static String Item_Aetherium_Crysle_Name = "Adamantium Crysle";
+	public final static String Item_Aetherium_Crysle_Name = "Aetherium Crysle";
 	public final static String Item_Orichalcum_Ingot_Name = "Orichalcum Ingot";
 	public final static String Item_Wonderflonium_Ingot_Name = "Wonderflonium Ingot";
-	public final static String Item_Mithril_Ingot_Name = "Mithril";
+	public final static String Item_Mithril_Ingot_Name = "Mithril Ingot";
 	public final static String Item_Silicon_Ingot_Name = "Silicon Ingot";
 	public final static String Item_Tin_Ingot_Name = "Tin Ingot";
 	public final static String Item_Copper_Ingot_Name = "Copper Ingot";
+	public final static String Item_Bronze_Ingot_Name = "Bronze Ingot";
 	public final static String Item_Titanium_Ingot_Name = "Titanium Ingot";
 	public final static String Item_Silver_Ingot_Name = "Silver Ingot";
 	public final static String Item_Steel_Ingot_Name = "Steel Ingot";
 	public final static String Item_Star_Steel_Ingot_Name = "Star Steel Ingot";
 	public final static String Item_Ingot_Mold_Name = "Ingot Mold";
 	public final static String Item_Pickaxe_Mold_Name = "Pickaxe Head Mold";
-	public final static String Item_Shovelhead_Mold_Name = "Shovel Head Mold";
+	public final static String Item_Shovel_Mold_Name = "Shovel Head Mold";
+	public final static String Item_Axe_Mold_Name = "Axe Head Mold";
 	public final static String Item_Blade_Mold_Name = "Blade Mold";
 	public final static String Item_Shaft_Name = "Shaft";
 	public final static String Item_Hilt_Name = "Hilt";
@@ -31,6 +31,7 @@ public class Strings {
 	public final static String Item_Pickaxe_head_Adamantium_Name = "Adamantium Pickaxe Head";
 	public final static String Item_Pickaxe_head_Mithril_Name = "Mithril Pickaxe Head";
 	public final static String Item_Pickaxe_head_Copper_Name = "Copper Pickaxe Head";
+	public final static String Item_Pickaxe_head_Bronze_Name = "Bronze Pickaxe Head";
 	public final static String Item_Pickaxe_head_Silver_Name = "Silver Pickaxe Head";
 	public final static String Item_Pickaxe_head_Steel_Name = "Steel Pickaxe Head";
 	public final static String Item_Pickaxe_head_StarSteel_Name = "StarSteel Pickaxe Head";
@@ -39,7 +40,8 @@ public class Strings {
 	public final static String Item_Shovel_head_Adamantium_Name = "Adamantium Shovel Head";
 	public final static String Item_Shovel_head_Mithril_Name = "Mithril Shovel Head";
 	public final static String Item_Shovel_head_Copper_Name = "Copper Shovel Head";
-	public final static String Item_Shovel_head_Silver_Name = "Siliver Shovel Head";
+	public final static String Item_Shovel_head_Bronze_Name = "Bronze Shovel Head";
+	public final static String Item_Shovel_head_Silver_Name = "Silver Shovel Head";
 	public final static String Item_Shovel_head_Steel_Name = "Steel Shovel Head";
 	public final static String Item_Shovel_head_StarSteel_Name = "StarSteel Shovel Head";
 	public final static String Item_Axe_head_Mana_Name = "Mana Axe Head";
@@ -47,6 +49,7 @@ public class Strings {
 	public final static String Item_Axe_head_Adamantium_Name = "Adamantium Axe Head";
 	public final static String Item_Axe_head_Mithril_Name = "Mithril Axe Head";
 	public final static String Item_Axe_head_Copper_Name = "Copper Axe Head";
+	public final static String Item_Axe_head_Bronze_Name = "Bronze Axe Head";
 	public final static String Item_Axe_head_Siver_Name = "Silver Axe Head";
 	public final static String Item_Axe_head_Steel_Name = "Steel Axe Head";
 	public final static String Item_Axe_head_StarSteel_Name = "StarSteel Axe Head";
@@ -55,6 +58,7 @@ public class Strings {
 	public final static String Item_Blade_Adamantium_Name = "Adamantium Blade";
 	public final static String Item_Blade_Mithril_Name = "Mithril Blade";
 	public final static String Item_Blade_Copper_Name = "Copper Blade";
+	public final static String Item_Blade_Bronze_Name = "Bronze Blade";
 	public final static String Item_Blade_Titanium_Name = "Titanium Blade";
 	public final static String Item_Blade_Silver_Name = "Silver Blade";
 	public final static String Item_Blade_Steel_Name = "Steel Blade";
@@ -89,6 +93,8 @@ public class Strings {
 	public final static String Tool_Axe_StarSteel_Name = "StarSteel";
 	
 	/* Weapons */
+	public final static String Weapon_Magick_WandOfMagick_Name = "Magick Wand Of Magick";
+	public final static String Weapon_Magick_StaffOfMagick_Name = "Magick Staff Of Magick";
 	public final static String Weapon_Sword_Mana_Name = "Mana Sword";
 	public final static String Weapon_Sword_Rune_Name = "Rune Sword";
 	public final static String Weapon_Sword_Adamantium_Name = "Adamantium Sword";
