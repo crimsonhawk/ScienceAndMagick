@@ -3,13 +3,11 @@ package glassesofdoom.sam.mod.Items;
 import glassesofdoom.sam.mod.SAMMain;
 import net.minecraft.item.Item;
 
-public class ItemManaCrystle extends Item {
+public class ItemCopperAxeHead extends Item{
 
-	public ItemManaCrystle(int id) {
+	public ItemCopperAxeHead(int id) {
 		super(id);
 		this.setCreativeTab(SAMMain.TabsSamItems);
-
-		
 	}
 
 }

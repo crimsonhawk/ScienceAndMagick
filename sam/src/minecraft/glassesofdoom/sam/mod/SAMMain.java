@@ -10,6 +10,7 @@ import glassesofdoom.sam.mod.CreativeTabs.CreativeTabsSAMItems;
 import glassesofdoom.sam.mod.Items.SMItem;
 import glassesofdoom.sam.mod.core.proxys.CommonProxy;
 import glassesofdoom.sam.mod.lib.BlockIds;
+import glassesofdoom.sam.mod.lib.ItemIds;
 import glassesofdoom.sam.mod.lib.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
@@ -42,7 +43,7 @@ public class SAMMain {
 		Configuration config = new Configuration(event.getSuggestedConfigurationFile());
 		
 		config.load();
-		
+		/*Blocks*/
 		//FORGE = config.getBlock(Configuration.CATEGORY_BLOCK, "Forge", BlockIds.FORGE_DEFAULT).getInt();
 		BlockIds.ADAMANTIUM = config.getBlock(Configuration.CATEGORY_BLOCK, "Adamantium" , BlockIds.ADAMANTIUM_DEFAULT).getInt();
 		BlockIds.RUNE = config.getBlock(Configuration.CATEGORY_BLOCK, "Rune", BlockIds.RUNE_DEFAULT).getInt();
@@ -69,6 +70,39 @@ public class SAMMain {
 		BlockIds.SILICONLOGS = config.getBlock(Configuration.CATEGORY_BLOCK, "SiliconLogs", BlockIds.SILICONLOGS_DEFAULT).getInt();
 		BlockIds.SILICONLEAVES = config.getBlock(Configuration.CATEGORY_BLOCK, "SiliconLeaves", BlockIds.SILICONLEAVES_DEFAULT).getInt();
 		BlockIds.SILICONPLANKS = config.getBlock(Configuration.CATEGORY_BLOCK, "SiliconPlanks", BlockIds.SILICONPLANKS_DEFAULT).getInt();
+		
+		/*Items*/
+	/*	ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MANAINGOT = config.getItem(Configuration.CATEGORY_ITEM, "ManaIngot", ItemIds.MANAINGOT_DEFAULT).getInt();
+		ItemIds.RUNEINGOT = config.getItem(Configuration.CATEGORY_ITEM, "RuneIngot", ItemIds.RUNEINGOT_DEFAULT).getInt();
+		ItemIds.ADAMANTIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "AdamatiumIngot", ItemIds.ADAMANTIUMINGOT_DEFAULT).getInt();
+		ItemIds.AETHERIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "AetheriumIngot", ItemIds.AETHERIUMINGOT_DEFAULT).getInt();
+		ItemIds.ORICHALCUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "OrichalcumIngot", ItemIds.ORICHALCUMINGOT_DEFAULT).getInt();
+		ItemIds.WONDERFLONIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MITHRILINGOT = config.getItem(Configuration.CATEGORY_ITEM, "MithrilIngot", ItemIds.MITHRILINGOT_DEFAULT).getInt();
+		ItemIds.SILICONINGOT = config.getItem(Configuration.CATEGORY_ITEM, "SiliconIngot", ItemIds.SILICONINGOT_DEFAULT).getInt();
+		ItemIds.TININGOT = config.getItem(Configuration.CATEGORY_ITEM, "TinIngot", ItemIds.TININGOT_DEFAULT).getInt();
+		ItemIds.COPPERINGOT = config.getItem(Configuration.CATEGORY_ITEM, "CopperIngot", ItemIds.COPPERINGOT_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		ItemIds.MAMACRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
+		
+		*/
+		
 		
 		config.save();
 	
