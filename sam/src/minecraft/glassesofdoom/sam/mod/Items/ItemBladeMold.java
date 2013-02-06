@@ -5,8 +5,8 @@ import net.minecraft.item.Item;
 
 public class ItemBladeMold extends Item{
 
-	public ItemBladeMold(int par1) {
-		super(par1);
+	public ItemBladeMold(int id) {
+		super(id);
 		this.setCreativeTab(SAMMain.TabsSamItems);
 	}
 
