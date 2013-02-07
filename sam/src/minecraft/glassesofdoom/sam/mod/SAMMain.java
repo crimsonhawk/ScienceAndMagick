@@ -76,7 +76,7 @@ public class SAMMain {
 		ItemIds.MANAINGOT = config.getItem(Configuration.CATEGORY_ITEM, "ManaIngot", ItemIds.MANAINGOT_DEFAULT).getInt();
 		ItemIds.RUNEINGOT = config.getItem(Configuration.CATEGORY_ITEM, "RuneIngot", ItemIds.RUNEINGOT_DEFAULT).getInt();
 		ItemIds.ADAMANTIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "AdamatiumIngot", ItemIds.ADAMANTIUMINGOT_DEFAULT).getInt();
-		ItemIds.AETHERIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "AetheriumIngot", ItemIds.AETHERIUMINGOT_DEFAULT).getInt();
+		ItemIds.AETHERIUMCRYSTLE = config.getItem(Configuration.CATEGORY_ITEM, "AetheriumIngot", ItemIds.AETHERIUMCRYSTLE_DEFAULT).getInt();
 		ItemIds.ORICHALCUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "OrichalcumIngot", ItemIds.ORICHALCUMINGOT_DEFAULT).getInt();
 		ItemIds.WONDERFLONIUMINGOT = config.getItem(Configuration.CATEGORY_ITEM, "WonderfloniumIngot", ItemIds.MAMACRYSTLE_DEFAULT).getInt();
 		ItemIds.MITHRILINGOT = config.getItem(Configuration.CATEGORY_ITEM, "MithrilIngot", ItemIds.MITHRILINGOT_DEFAULT).getInt();
@@ -99,7 +99,7 @@ public class SAMMain {
 		ItemIds.ADAMANRIUMPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "AdamantiumPickaxeHead", ItemIds.ADAMANTIUMPICKAXEHEAD_DEFAULT).getInt();
 		ItemIds.MITHRILPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "MithrilPickaxeHead", ItemIds.MITHRILPICKAXEHEAD_DEFAULT).getInt();
 		ItemIds.COPPERPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "CopperPickaxeHead", ItemIds.COPPERPICKAXEHEAD_DEFAULT).getInt();
-		ItemIds.BRONZEPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "ManaCrystle", ItemIds.BRONZEPICKAXEHEAD_DEFAULT).getInt();
+		ItemIds.BRONZEPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "BronzePickaxeHead", ItemIds.BRONZEPICKAXEHEAD_DEFAULT).getInt();
 		ItemIds.SILVERPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "SilverPickaxeHead", ItemIds.SILVERPICKAXEHEAD_DEFAULT).getInt();
 		ItemIds.STEELPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "SteelPickaceHead", ItemIds.STEELPICKAXEHEAD_DEFAULT).getInt();
 		ItemIds.STARSTEELPICKAXEHEAD = config.getItem(Configuration.CATEGORY_ITEM, "StarSteelPickaxeHead", ItemIds.STARSTEELPICKAXEHEAD_DEFAULT).getInt();

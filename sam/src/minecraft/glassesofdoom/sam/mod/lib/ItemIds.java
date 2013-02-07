@@ -8,7 +8,7 @@ public class ItemIds {
 	public static int MANAINGOT_DEFAULT = 4501;
 	public static int RUNEINGOT_DEFAULT = 4502;
 	public static int ADAMANTIUMINGOT_DEFAULT = 4503;
-	public static int AETHERIUMINGOT_DEFAULT = 4504;
+	public static int AETHERIUMCRYSTLE_DEFAULT = 4504;
 	public static int ORICHALCUMINGOT_DEFAULT = 4505;
 	public static int WONDERFLONIUMINGOT_DEFAULT = 4506;
 	public static int MITHRILINGOT_DEFAULT = 4507;
@@ -71,7 +71,7 @@ public class ItemIds {
 	public static int MANAINGOT;
 	public static int RUNEINGOT;
 	public static int ADAMANTIUMINGOT;
-	public static int AETHERIUMINGOT;
+	public static int AETHERIUMCRYSTLE;
 	public static int ORICHALCUMINGOT;
 	public static int WONDERFLONIUMINGOT;
 	public static int MITHRILINGOT;

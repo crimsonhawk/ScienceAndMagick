@@ -7,7 +7,7 @@ public class Strings {
 	public final static String Item_Mana_Ingot_Name = "Mana Ingot";
 	public final static String Item_Rune_Ingot_Name = "Rune Ingot";
 	public final static String Item_Adamatium_Ingot_Name = "Adamatium Ingot";
-	public final static String Item_Aetherium_Crysle_Name = "Aetherium Crysle";
+	public final static String Item_Aetherium_Crystle_Name = "Aetherium Crystle";
 	public final static String Item_Orichalcum_Ingot_Name = "Orichalcum Ingot";
 	public final static String Item_Wonderflonium_Ingot_Name = "Wonderflonium Ingot";
 	public final static String Item_Mithril_Ingot_Name = "Mithril Ingot";
@@ -62,7 +62,7 @@ public class Strings {
 	public final static String Item_Blade_Titanium_Name = "Titanium Blade";
 	public final static String Item_Blade_Silver_Name = "Silver Blade";
 	public final static String Item_Blade_Steel_Name = "Steel Blade";
-	public final static String Item_Blade_StarSliver_Name = "StarSteel Blade";
+	public final static String Item_Blade_StarSteel_Name = "StarSteel Blade";
 	
 	/* Fuels */
 	public final static String Fuel_CoalBlock_Name = "Coal Block";

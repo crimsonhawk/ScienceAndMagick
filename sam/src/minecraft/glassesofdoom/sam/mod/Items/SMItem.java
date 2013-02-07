@@ -3,9 +3,11 @@ package glassesofdoom.sam.mod.Items;
 import net.minecraft.item.Item;
 import glassesofdoom.sam.mod.lib.ItemIds;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class SMItem {
 	
+	public static Item AetheriumCrystle;
 	public static Item ManaCrystle;
 	public static Item ManaIngot;
 	public static Item RuneIngot;
@@ -76,7 +78,7 @@ public class SMItem {
 		ManaIngot = new ItemManaIngot(ItemIds.MANAINGOT).setIconIndex(0);
 		RuneIngot = new ItemRuneIngot(ItemIds.RUNEINGOT).setIconIndex(0);
 		AdamatiumIngot = new ItemAdamatiumIngot(ItemIds.ADAMANTIUMINGOT).setIconIndex(0);
-		AetheriumIngot = new ItemAetheriumIngot(ItemIds.AETHERIUMINGOT).setIconIndex(0);
+		AetheriumCrystle = new ItemAetheriumCrystle(ItemIds.AETHERIUMCRYSTLE).setIconIndex(0);
 		OrichalcumIngot = new ItemOrichalcumIngot(ItemIds.ORICHALCUMINGOT).setIconIndex(0);
 		WonderfloniumIngot = new ItemWonderfloniumIngot(ItemIds.WONDERFLONIUMINGOT).setIconIndex(0);
 		MithrilIngot = new ItemMithrilIngot(ItemIds.MITHRILINGOT).setIconIndex(0);
@@ -132,6 +134,68 @@ public class SMItem {
 		SilverBlade = new ItemSilverBlade(ItemIds.SILVERBLADE).setIconIndex(0);
 		SteelBlade = new ItemSteelBlade(ItemIds.STEELBLADE).setIconIndex(0);
 		StarSteelBlade = new ItemStarSteelBlade(ItemIds.STARSTEELBLADE).setIconIndex(0);
+		
+		
+		/*Language Registry*/
+		
+		 LanguageRegistry.addName(ManaCrystle, "Mana Crystle");
+		 LanguageRegistry.addName(ManaIngot, "Mana Ingot");
+		 LanguageRegistry.addName(RuneIngot, "Rune Ingot");
+		 LanguageRegistry.addName(AdamatiumIngot, "Adamatium Ingot");
+		 LanguageRegistry.addName(AetheriumCrystle, "Aetherium Crysle");
+		 LanguageRegistry.addName(OrichalcumIngot, "Orichalcum Ingot");
+		 LanguageRegistry.addName(WonderfloniumIngot, "Wonderflonium Ingot");
+		 LanguageRegistry.addName(MithrilIngot, "Mithril Ingot");
+		 LanguageRegistry.addName(SiliconIngot, "Silicon Ingot");
+		 LanguageRegistry.addName(TinIngot, "Tin Ingot");
+		 LanguageRegistry.addName(CopperIngot, "Copper Ingot");
+		 LanguageRegistry.addName(BronzeIngot, "Bronze Ingot");
+		 LanguageRegistry.addName(TitaniumIngot, "Titanium Ingot");
+		 LanguageRegistry.addName(SilverIngot, "Silver Ingot");
+		 LanguageRegistry.addName(SteelIngot, "Steel Ingot");
+		 LanguageRegistry.addName(StarSteelIngot, "StarSteel Ingot");
+		 LanguageRegistry.addName(IngotMold, "Ingot Mold");
+		 LanguageRegistry.addName(PickaxeMold, "Pickaxe Mold");
+		 LanguageRegistry.addName(ShovelMold, "Shovel Mold");
+		 LanguageRegistry.addName(BladeMold, "Blade Mold");
+		 LanguageRegistry.addName(Shaft, "Shaft");
+		 LanguageRegistry.addName(Hilt, "Hilt");
+		 LanguageRegistry.addName(ManaPickaxeHead, "ManaPickaxe Head");
+		 LanguageRegistry.addName(RunePickaxeHead, "RunePickaxe Head");
+		 LanguageRegistry.addName(AdamantiumPickaxeHead, "AdamantiumPickaxe Head");
+		 LanguageRegistry.addName(MithrilPickaxeHead, "MithrilPickaxe Head");
+		 LanguageRegistry.addName(CopperPickaxeHead, "CopperPickaxe Head");
+		 LanguageRegistry.addName(BronzePickaxeHead, "BronzePickaxe Head");
+		 LanguageRegistry.addName(SilverPickaxeHead, "SilverPickaxe Head");
+		 LanguageRegistry.addName(SteelPickaceHead, "SteelPickace Head");
+		 LanguageRegistry.addName(StarSteelPickaxeHead, "StarSteelPickaxe Head");
+		 LanguageRegistry.addName(ManaShovelHead, "ManaShovel Head");
+		 LanguageRegistry.addName(RuneShovelHead, "RuneShovel Head"); 
+		 LanguageRegistry.addName(AdamantiumShovelHead, "AdamantiumShovel Head");
+		 LanguageRegistry.addName(MithrilShovelHead, "MithrilShovel Head");
+		 LanguageRegistry.addName(CopperShovelHead, "CopperShovel Head");
+		 LanguageRegistry.addName(SilverShovelHead, "SilverShovel Head");
+		 LanguageRegistry.addName(SteelShovelHead, "SteelShovel Head");
+		 LanguageRegistry.addName(StarSteelShovelHead, "StarSteelShovel Head");
+		 LanguageRegistry.addName(ManaAxeHead, "ManaAxe Head");
+		 LanguageRegistry.addName(RuneAxeHead, "RuneAxe Head");
+		 LanguageRegistry.addName(AdamantiumAxeHead, "AdamantiumAxe Head");		 
+		 LanguageRegistry.addName(MithrilAxeHead, "MithrilAxe Head");
+		 LanguageRegistry.addName(CopperAxeHead, "CopperAxe Head");
+		 LanguageRegistry.addName(BronzeAxeHead, "BronzeAxe Head");
+		 LanguageRegistry.addName(SilverAxeHead, "SilverAxe Head");
+		 LanguageRegistry.addName(SteelAxeHead, "SteelAxe Head");
+		 LanguageRegistry.addName(StarSteelAxeHead, "StarSteelAxe Head");
+		 LanguageRegistry.addName(ManaBlade, "Mana Blade");
+		 LanguageRegistry.addName(RuneBlade, "Rune Blade");
+		 LanguageRegistry.addName(AdamantiumBlade, "Adamantium Blade");
+		 LanguageRegistry.addName(MithrilBlade, "Mithril Blade");
+		 LanguageRegistry.addName(CopperBlade, "Copper Blade");
+		 LanguageRegistry.addName(BronzeBlade, "Bronze Blade");
+		 LanguageRegistry.addName(TitaniumBlade, "Titanium Blade");
+		 LanguageRegistry.addName(SilverBlade, "Silver Blade");
+		 LanguageRegistry.addName(SteelBlade, "Steel Blade");
+		 LanguageRegistry.addName(StarSteelBlade, "StarSteel Blade");
 
 		
 	}
