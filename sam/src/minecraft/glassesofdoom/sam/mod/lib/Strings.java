@@ -167,6 +167,19 @@ public class Strings {
 	public final static String Water_Chunky_Flowing_Name = "Chunky Water";
 	public final static String Water_RedStone_Flowing_Name = "RedStone Water";
 	
+	/*Buckets*/
+	public final static String Bucket_RedWater_Name = "Red Water Bucket";
+	public final static String Bucket_YellowWater_Name = "Yellow Water Bucket";
+	public final static String Bucket_OrangeWater_Name = "Orange Water Bucket";
+	public final static String Bucket_GreenWater_Name = "Green Water Bucket";
+	public final static String Bucket_BlueWater_Name = "Blue Water Bucket";
+	public final static String Bucket_PurpleWater_Name = "Purple Water Bucket";
+	public final static String Bucket_PinkWater_Name = "Pink Water Bucket";
+	public final static String Bucket_SilverWater_Name ="Silver Water Bucket";
+	public final static String Bucket_LuminusWater_Name = "Luminus Water Bucket";
+	public final static String Bucket_HeavyWater_Name = "Heavy Water Bucket";
+	public final static String Bucket_ChunkyWater_Name = "Chunky Bucket";
+	
 	/* Molten Metals */
 	
 	

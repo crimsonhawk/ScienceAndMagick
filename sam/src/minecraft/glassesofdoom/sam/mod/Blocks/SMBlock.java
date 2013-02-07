@@ -121,6 +121,8 @@ public class SMBlock {
  		LanguageRegistry.addName(SiliconLogs, Strings.Block_Silicon_Logs_Name);
  		LanguageRegistry.addName(SiliconLeaves, Strings.Block_Silicon_Leaves_Name);
  		LanguageRegistry.addName(SiliconPlanks, Strings.Block_Silicon_Planks_Name);
+ 		
+ 		
 		
 
 	}

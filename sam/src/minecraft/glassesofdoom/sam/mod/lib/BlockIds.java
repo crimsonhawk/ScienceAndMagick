@@ -2,7 +2,7 @@ package glassesofdoom.sam.mod.lib;
 
 public class BlockIds {
  
-	/* Default Block ids */
+	/* Default Block Ids */
 	public static int FORGE_DEFAULT = 3400;
 	public static int ADAMANTIUM_DEFAULT = 3401;
 	public static int RUNE_DEFAULT = 3402;
@@ -30,7 +30,7 @@ public class BlockIds {
 	public static int SILICONLEAVES_DEFAULT = 3424;
 	public static int SILICONPLANKS_DEFAULT = 3425;
 	
-	/* Current Block ids*/
+	/* Current Block Ids*/
 	public static int FORGE;
 	public static int ADAMANTIUM;
 	public static int RUNE;
