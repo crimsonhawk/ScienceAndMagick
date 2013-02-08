@@ -12,6 +12,7 @@ import glassesofdoom.sam.mod.core.proxys.CommonProxy;
 import glassesofdoom.sam.mod.lib.BlockIds;
 import glassesofdoom.sam.mod.lib.ItemIds;
 import glassesofdoom.sam.mod.lib.Reference;
+import glassesofdoom.sam.mod.liquids.SMLiquids;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -146,6 +147,7 @@ public class SAMMain {
 		
 		SMBlock.init();
 		SMItem.init();
+		//SMLiquids.init();
 		
 	}
 
